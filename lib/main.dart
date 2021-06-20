@@ -55,13 +55,13 @@ class _MyAppState extends State<MyApp>
         child: Stack(
           children: [
             Positioned.fill(
-              child: FlutterLogo(),
+              child: FlutterLogo(style: FlutterLogoStyle.stacked,),
             ),
             Center(
               child: Text(
                 'Click me!',
                 style: TextStyle(
-                  fontSize: 60.0,
+                  fontSize: 160.0,
                   fontWeight: FontWeight.bold,
                 ),
               ),
